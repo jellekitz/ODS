@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Restricted Area"
+AuthUserFile \wamp\www\leerjaar2\periode3\PRO\ODS%20-%20kopie/cms/admin/.htpasswd
+require valid-user
