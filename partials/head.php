@@ -42,6 +42,7 @@
         <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
 	
 		<!-- stylesheet -->
+    
         <link rel="stylesheet" href="css/style.css">
 
         <!--[if lt IE 9]>
