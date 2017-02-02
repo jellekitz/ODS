@@ -2,10 +2,14 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>My CMS</title>
+        <title>Evenementen</title>
         <link rel="stylesheet" href="../css/app.css">
     </head>
     <body>
+    
+        
+
+        
         <div class="wrapper">
-            <h1>My CMS</h1>
+            <h2>Mijn Evenementen</h2>
  

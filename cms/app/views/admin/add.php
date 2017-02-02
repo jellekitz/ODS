@@ -14,7 +14,7 @@
         </label>
         
         <label for="slug">
-            Slug
+            Link
             <input type="text" name="slug" id="slug">
         </label>
         

@@ -14,7 +14,7 @@
         </label>
         
         <label for="slug">
-            Slug
+            Link
             <input type="text" name="slug" id="slug" value="<?php echo e($page['slug']); ?>">
         </label>
         

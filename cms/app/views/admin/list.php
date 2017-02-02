@@ -8,14 +8,14 @@
                 <tr>
                     <th>Label</th>
                     <th>Title</th>
-                    <th>Slug</th>
+                    <th>Link</th>
                     <th></th>
                     <th></th>
                 </tr>
             </thead>
             <tbody>
                 <?php foreach($pages as $page): ?>
-                <tr>
+                <tr id="lol">
                     <td><?php echo e($page['label']); ?></td>
                     <td><?php echo e($page['title']); ?></td>
                     <td><a href="<?php echo BASE_URL; ?>/page.php?page=<?php echo e($page['slug']); ?>"><?php echo e($page['slug']); ?></a></td>
@@ -28,5 +28,8 @@
     <?php endif; ?>
 
     <a href="<?php echo BASE_URL; ?>/admin/add.php">Add new page</a>
+<a href="<?php echo BASE_URL; ?>../index.php">Go back</a>
+
+
 
 <?php require VIEW_ROOT . '/templates/footer.php'?>
